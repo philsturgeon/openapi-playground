@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+echo "Launching Documentation on http://localhost:8088/"
+echo "Press CTRL+C to terminate server"
+ruby -run -ehttpd ./docs/ -p8088
