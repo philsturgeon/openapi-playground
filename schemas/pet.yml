@@ -1,0 +1,16 @@
+type: object
+properties:
+  id:
+    type: string
+    description: sduihdshf
+    example: hey
+  colour:
+    type: string
+    example: blue
+  breed:
+    type: string
+    example: purse cat
+  evil:
+    type: integer
+    description: '1-low 10-run away # askdasl'
+    example: 10
